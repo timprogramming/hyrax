@@ -4,6 +4,7 @@ body {
     font-family: verdana;
     color: seagreen;
     text-align: center;
+    display: inline-block;
 }
 
 
@@ -26,9 +27,11 @@ figcaption {
     font-size: 20px;
 }
 
+
 .mf {
     font-style: bold;
 }
+
 
 .shape1 {
     background-color: lightseagreen;
@@ -36,7 +39,10 @@ figcaption {
     height: 850px;
     border-radius: 50% 55% 60% 55% / 60% 40% 50% 55%;
     z-index: -1;
+    top: 0;
+    left: 0;
 }
+
 
 .shape2 {
     background-color: lightseagreen;
@@ -44,4 +50,6 @@ figcaption {
     height: 850px;
     border-radius: 60% 55% 50% 55% / 50% 55% 60% 40%;
     z-index: -1;
+    bottom: 0;
+    right: 0;
 }
