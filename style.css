@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+    overflow-x: hidden;
+    font-family: verdana;
+    color: seagreen;
+    text-align: center;
+}
+
+
+header {
+    background-color: aqua;
+    padding: 20px;
+}
+
+
+img {
+    width: 200px;
+    height: 250px;
+    border: 5px solid lightseagreen;
+}
+
+
+figcaption {
+    color: seagreen;
+    border: 2px solid lightseagreen;
+    font-size: 20px;
+}
+
+.mf {
+    font-style: bold;
+}
+
+.shape1 {
+    background-color: lightseagreen;
+    width: 850px;
+    height: 850px;
+    border-radius: 50% 55% 60% 55% / 60% 40% 50% 55%;
+    z-index: -1;
+}
+
+.shape2 {
+    background-color: lightseagreen;
+    width: 850px;
+    height: 850px;
+    border-radius: 60% 55% 50% 55% / 50% 55% 60% 40%;
+    z-index: -1;
+}
