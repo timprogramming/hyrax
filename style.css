@@ -39,8 +39,8 @@ figcaption {
     height: 850px;
     border-radius: 50% 55% 60% 55% / 60% 40% 50% 55%;
     z-index: -1;
-    top: 0;
-    left: 0;
+    top: -150px;
+    left: 100px;
 }
 
 
@@ -50,6 +50,6 @@ figcaption {
     height: 850px;
     border-radius: 60% 55% 50% 55% / 50% 55% 60% 40%;
     z-index: -1;
-    bottom: 0;
-    right: 0;
+    bottom: 100px;
+    right: -150px;
 }
