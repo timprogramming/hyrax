@@ -21,12 +21,22 @@ img {
 }
 
 
+img:hover {
+    filter: grayscale(100%)
+}
+
+
 figcaption {
     color: seagreen;
     border: 2px solid lightseagreen;
     font-size: 20px;
 }
 
+
+figcaption:hover {
+    font-weight: bolder;
+    color: red;
+}
 
 .mf {
     font-style: bold;
