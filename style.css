@@ -18,11 +18,13 @@ img {
     width: 200px;
     height: 250px;
     border: 5px solid lightseagreen;
+    position: relative;
+    z-index: 999;
 }
 
 
 img:hover {
-    filter: grayscale(100%)
+    filter: grayscale(100);
 }
 
 
@@ -30,12 +32,16 @@ figcaption {
     color: seagreen;
     border: 2px solid lightseagreen;
     font-size: 20px;
+    position: relative;
+    padding: 0 25px 0 25px;
+    z-index: 999;
 }
 
 
 figcaption:hover {
     font-weight: bolder;
     color: red;
+    display: inline-block;
 }
 
 .mf {
